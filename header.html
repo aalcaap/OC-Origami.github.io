@@ -2,16 +2,20 @@
 
 .coral {
   background: rgb(255, 127, 80);
+  flex-grow: 1;
+  display: flex;
 }
 .coral:hover {
   background: #FC9700;
   flex-grow: 2;
 }
+
 .green {
-  background: yellowgreen;
+    display: flex;
+    background: #9ACD32;
     align-items: center;
-    flex-grow: 1;
 }
+
 .green:hover{
   background: #80FC42;
   flex-grow: 2;
@@ -21,12 +25,15 @@ ul {
   list-style-type: none;
   display: table-row;
   float: right;
+  vertical-align: center;
 }
 
 ul li{
   display: table-cell;
   height: 100px;
+  vertical-align: center;
 }
+
 ul li a {
   display: table-cell;
   padding: 14px 16px;
@@ -37,6 +44,7 @@ ul li a {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-family: 'Work Sans', sans-serif;
+  vertical-align: center;
 }
 
 ul li a:hover{
@@ -44,6 +52,7 @@ ul li a:hover{
 }
 
 </style>
+<div id="header">
 <div class="coral">
     <a href="home_page.html">
     <img src="400dpiLogoCropped.png"
@@ -60,4 +69,5 @@ ul li a:hover{
       <li> <a href="join_page.php">Join</a> </li>
       <li><a href="home_page.php">Home</a></li>
     </ul>
+</div>
 </div>
