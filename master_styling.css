@@ -3,23 +3,6 @@ html, body {
   height: 100%;
 }
 
-body {
-  margin: 0;
-  position: relative;
-  height: 100vh;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-family: 'Work Sans', sans-serif;
-}
-a:hover{
-  color: rgb(255, 127, 80);
-}
-
 h1 {
   font-family: 'Karla', sans-serif;
 }
@@ -44,29 +27,13 @@ font-family: 'Karla', sans-serif;
 img{
     width: 50px;
 }
-.container {
-  display: flex;
+
+body {
+  margin: 0;
+  position: relative;
+  height: 100vh;
 }
 
-.coral, .green, .blue, .yellow{
-  flex-wrap: wrap;
-}
-
-.coral {
-  background: rgb(255, 127, 80);
-  flex-grow: 1;
-}
-.coral:hover {
-  background: #FC9700;
-  flex-grow: 2;
-}
-.green {
-  background: yellowgreen;
-}
-.green:hover{
-  background: #80FC42;
-  flex-grow: 2;
-}
 .blue {
   background: #4FD0FF;
   flex-grow: 1;
@@ -80,35 +47,4 @@ img{
 }
 .yellow:hover {
   background: #FFFF99;
-}
-.container > div {
-  padding: .5em;
-  color: white;
-}
-
-ul {
-  display: flex;
-  align-items: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul li{
-  float: right;
-  display: inline;
-  padding: 5px;
-  margin-left: 2px;
-  vertical-align: middle;
-  height: 25px;
-  line-height: 25px;
-}
-
-ul li a {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-nav {
-  margin: 0 auto;
 }

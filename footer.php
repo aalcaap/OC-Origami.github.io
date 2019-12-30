@@ -14,7 +14,7 @@
                     <li>© Copyright OC Origami 2019.</li>
                 </ul>
             </div>
-        </div>....
+        </div>
         <!--ok-->
     </div><!--Let's go to header.php. Also you can save header.php as header.html and then it will work on yours-->
 </div>
