@@ -2,7 +2,6 @@
 
 .coral {
   background: rgb(255, 127, 80);
-  flex-grow: 1;
 }
 .coral:hover {
   background: #FC9700;
@@ -11,6 +10,7 @@
 .green {
   background: yellowgreen;
     align-items: center;
+    flex-grow: 1;
 }
 .green:hover{
   background: #80FC42;
@@ -44,7 +44,6 @@ ul li a:hover{
 }
 
 </style>
-<div class="container">
 <div class="coral">
     <a href="home_page.html">
     <img src="400dpiLogoCropped.png"
@@ -61,5 +60,4 @@ ul li a:hover{
       <li> <a href="join_page.php">Join</a> </li>
       <li><a href="home_page.php">Home</a></li>
     </ul>
-</div>
 </div>
