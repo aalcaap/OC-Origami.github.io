@@ -4,11 +4,11 @@
     <title>
       Market - OC Origami
     </title>
-    <?php include 'head.php' ?>
+    <?php include 'head.html' ?>
     <link rel="stylesheet" href="master_styling.css">
   </head>
   <body>
-      <?php include 'header.php' ?>
+      <?php include 'header.html' ?>
     <div id="content">
       <div class=yellow>
         <h1>
@@ -16,5 +16,5 @@
         </h1>
       </div>
     </div>
-    <?php include 'footer.php' ?>
+    <?php include 'footer.html' ?>
 </html>
