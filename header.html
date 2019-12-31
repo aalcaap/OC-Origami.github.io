@@ -4,6 +4,7 @@
   background: rgb(255, 127, 80);
   flex-grow: 1;
   display: flex;
+  flex-wrap: none;
 }
 .coral:hover {
   background: #FC9700;
@@ -14,6 +15,9 @@
     display: flex;
     background: #9ACD32;
     align-items: center;
+    flex-wrap: none;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .green:hover{
@@ -32,6 +36,7 @@ ul li{
   display: table-cell;
   height: 100px;
   vertical-align: center;
+  float: right;
 }
 
 ul li a {
@@ -49,6 +54,11 @@ ul li a {
 
 ul li a:hover{
   color: rgb(255, 127, 80);
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
 }
 
 </style>
