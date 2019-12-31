@@ -11,7 +11,9 @@
   <h1>
     Would you like to join? Sign up here.
   </h1>
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfAqhq9YicXCRxqFYu640Y3ORmV73jReoo8NpzR_IBCL8gO9g/viewform?embedded=true" width="640" height="1200" frameborder="0" marginheight="0" marginwidth="0" style="float:right">Loading...</iframe>
+  <p style="text-align: center">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfAqhq9YicXCRxqFYu640Y3ORmV73jReoo8NpzR_IBCL8gO9g/viewform?embedded=true" width="640" height="1200" frameborder="0" marginheight="0" marginwidth="0">Unfortunately, your browser doesn't support iframes. Use this link instead: https://forms.gle/FrYngDP52jypz3kj8</iframe>
+</p>
 </div>
 <?php include 'footer.html' ?>
   </body>
