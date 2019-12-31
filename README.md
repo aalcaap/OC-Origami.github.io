@@ -1,1 +1,1 @@
-Welcome [Click here to open our website](oc-origami.github.io/home_page.html)
+Welcome [Click here to open our website](home_page.html)
