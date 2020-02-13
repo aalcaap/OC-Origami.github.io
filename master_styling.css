@@ -22,7 +22,7 @@ font-family: 'Karla', sans-serif;
 img{
     width: 50px;
 }
-/*Mendeleeve's flower*/
+
 body {
   margin: 0;
   position: relative;
@@ -32,6 +32,9 @@ body {
 .yellow {
   background: yellow;
 }
-.yellow:hover {
-  background: #FFFF99;
+
+@media only screen and (min-width: 900px) {
+  .yellow:hover {
+    background: #FFFF99;
+  }
 }
